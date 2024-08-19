@@ -17,6 +17,7 @@ class WebsiteSourceSpider(scrapy.Spider):
         self.image_directory = 'hotel_images'
         if not os.path.exists(self.image_directory):
             os.makedirs(self.image_directory)
+        
 
     def parse(self, response):
         script_content = response.xpath('//script[contains(text(), "window.IBU_HOTEL")]/text()').get()

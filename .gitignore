@@ -7,3 +7,5 @@ __pycache__/
 
 # Ignore environment variables file
 .env
+
+hotel_images/
