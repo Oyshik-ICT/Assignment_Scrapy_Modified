@@ -2,3 +2,6 @@ Scrapy
 python-dotenv
 sqlalchemy
 psycopg2-binary
+flake8 
+autopep8
+black
